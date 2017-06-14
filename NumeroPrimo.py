@@ -14,6 +14,7 @@ def isprimo(n):
     else:
         return False
 numero = int(input("Digite um Numero para verificar se é primo: "))
+
 a = isprimo(numero)
 if a:
     print("O Numero é primo")
